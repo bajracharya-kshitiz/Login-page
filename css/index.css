@@ -1,4 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+
 body{
     background-image: url(/images/project-image.jpg);
+    background-size: 100% 100%;
+   background-attachment: fixed;
+    background-repeat: no-repeat;
+}
 
+nav{
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom:20px;
+    align-items: center;
+}
+
+img{
+    height: 50px;
+    mix-blend-mode: multiply;
+}
+
+.nav-middle{
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+}
+
+button{
+    color: black;
+    padding: 10px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border: solid 1px orange;
+    margin-left: -5px;
+    background-color: orange;
+
+}
+
+::placeholder{
+    color: white;
+   
+}
+
+input{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: solid 1px orange;
+    padding: 10px;
+   background-color: rgba(255, 0, 0, 0);
 }
