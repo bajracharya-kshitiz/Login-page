@@ -18,20 +18,29 @@ nav{
     display: flex;
     padding-left: 50px;
     padding-right: 50px;
-    padding-top: 20px;
-    padding-bottom:20px;
+    padding-top: 10px;
+    padding-bottom:10px;
     align-items: center;
 }
 
 img{
-    height: 50px;
+    height: 70px;
     mix-blend-mode: multiply;
+}
+
+.nav-left{
+    margin-right: 50px;
+    margin-left: 50px;
 }
 
 .nav-middle{
     display: flex;
     justify-content: space-around;
     flex: 1;
+}
+
+.nav-right{
+    margin-left: 20px;
 }
 
 button{
